@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600    ;
+    font-style: normal;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+
+}
+.main{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 8%;
+    height: 80vh;
+    width: 90vw;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.left{
+    width: 30%;
+    background-color: #A9B782;
+    background-image: url(asset/Untitled69_20240428152145\ 4.png);
+    background-size: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.right{ 
+    width: 70%;
+    background-color: #FFFFFF; 
+    border-top-right-radius: 15px;   
+    border-bottom-right-radius: 15px;
+}
+.right .logo{
+    width: 150px;
+    position: relative;
+    left: 80%;
+}
+.login-form {
+    max-width: 40vw;
+    margin: 8vw;
+    text-align: center;
+}
+
+.login-form h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+
+ }
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #456F47;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #456F47;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #456F47;
+}
